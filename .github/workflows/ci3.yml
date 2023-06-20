@@ -36,7 +36,7 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew build
 
-    - name: Build and Pish Docker Image
+    - name: Build and Push Docker Image
       uses: mr-smithers-excellent/docker-build-push@v6
       with:
         image: kazanpanther/demo-app
